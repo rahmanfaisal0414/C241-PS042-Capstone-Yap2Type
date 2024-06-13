@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Yap2Type</string>
+    <string name="app_name">VoiceToText</string>
+    <string name="home_desc">Home</string>
+    <string name="add_desc">Add Audio</string>
+    <string name="settings_desc">Settings</string>
+    <string name="illustration_desc">Illustration</string>
 </resources>
