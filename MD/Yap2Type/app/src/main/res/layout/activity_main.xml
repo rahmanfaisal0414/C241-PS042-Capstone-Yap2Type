@@ -8,7 +8,6 @@
     tools:context=".MainActivity"
     android:background="#FF6F61">
 
-    <!-- Home TextView -->
     <TextView
         android:id="@+id/tvHome"
         android:layout_width="wrap_content"
@@ -22,7 +21,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <!-- ImageView for the illustration -->
     <ImageView
         android:id="@+id/ivIllustration"
         android:layout_width="200dp"
@@ -33,10 +31,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvHome"
         app:layout_constraintVertical_chainStyle="packed"
-        android:src="@drawable/your_image"
+        android:src="@drawable/add_audio"
         android:contentDescription="@string/illustration_desc"/>
 
-    <!-- Button to add audio -->
     <Button
         android:id="@+id/btnAddAudio"
         android:layout_width="wrap_content"
@@ -46,20 +43,7 @@
         android:textColor="#FF6F61"
         app:layout_constraintTop_toBottomOf="@id/ivIllustration"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp"/>
-
-    <!-- TextView to display transcription -->
-    <TextView
-        android:id="@+id/tvTranscription"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@id/btnAddAudio"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
