@@ -7,7 +7,7 @@
 
     <style name="Theme.Yap2Type" parent="Base.Theme.Yap2Type">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryVariant">@color/lavender</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->

@@ -51,4 +51,5 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
 
     implementation("com.google.android.material:material:1.3.0-alpha03")
+    implementation("androidx.cardview:cardview:1.0.0")
 }
