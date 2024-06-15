@@ -1,6 +1,7 @@
 package com.rahman.yap2type
 
 import android.animation.ObjectAnimator
+import android.content.Intent
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -50,7 +51,9 @@ class HomeFragment : Fragment() {
 
         // Handle popup item clicks if needed
         popupView.findViewById<View>(R.id.tvVideoRecorder).setOnClickListener {
-            // Handle click
+            // Start AudioRecorder activity
+            val intent = Intent(activity, AudioRecorderActivity::class.java)
+            startActivity(intent)
             popupWindow.dismiss()
         }
         popupView.findViewById<View>(R.id.tvUpload).setOnClickListener {
