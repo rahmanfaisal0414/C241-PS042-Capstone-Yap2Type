@@ -2,7 +2,7 @@
 
 Organisasi ini adalah bagian dari Bangkit 2024 Product Capstone.
 
-## Tentang
+## About
 
 Yap2Type is a cutting-edge tool made to assist users in summarizing audio-based content such as news, podcasts, conferences, and conversations. Users can record or upload audio files to the application, and artificial intelligence is used to distill the content into clear, short bullet points. Users can save time and effort by using Yap2Type to rapidly obtain an overview of conversations or discussions without having to listen to the full recording again.
 
@@ -17,5 +17,5 @@ Yap2Type is a cutting-edge tool made to assist users in summarizing audio-based 
 | Rahman Faisal    	          | A132D4KY4559         | Mobile Development  |
 | Nabilla Zhavirah 	          | A573D4KX4374         | Mobile Development  |
 
-## Daftar Repository
+## List Repository
 
