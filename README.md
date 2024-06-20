@@ -17,5 +17,3 @@ Yap2Type is a cutting-edge tool made to assist users in summarizing audio-based 
 | Rahman Faisal    	          | A132D4KY4559         | Mobile Development  |
 | Nabilla Zhavirah 	          | A573D4KX4374         | Mobile Development  |
 
-## List Repository
-
