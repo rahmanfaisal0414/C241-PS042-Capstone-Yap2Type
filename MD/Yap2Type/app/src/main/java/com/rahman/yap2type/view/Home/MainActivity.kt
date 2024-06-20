@@ -1,6 +1,7 @@
-package com.rahman.yap2type
+package com.rahman.yap2type.view.Home
 
 import android.animation.ObjectAnimator
+import android.content.Intent
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.rahman.yap2type.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         bottomNavigationView.setOnNavigationItemSelectedListener { item ->
             val selectedFragment: Fragment = when (item.itemId) {
                 R.id.home -> HomeFragment()
-                R.id.settings -> SettingsFragment()
+                R.id.settings -> AboutFragment()
                 else -> throw IllegalArgumentException("Unexpected item ID")
             }
             replaceFragment(selectedFragment)
@@ -62,7 +64,6 @@ class MainActivity : AppCompatActivity() {
         popupWindow.isFocusable = true
         popupWindow.update()
 
-        // Dimming effect
         val dimBackground = ColorDrawable(resources.getColor(android.R.color.black, null))
         dimBackground.alpha = 0
         parentLayout.foreground = dimBackground
@@ -74,18 +75,9 @@ class MainActivity : AppCompatActivity() {
 
         popupWindow.showAtLocation(parentLayout, android.view.Gravity.CENTER, 0, 0)
 
-        // Handle popup item clicks if needed
         popupView.findViewById<View>(R.id.tvVideoRecorder).setOnClickListener {
-            // Handle click
             popupWindow.dismiss()
-        }
-        popupView.findViewById<View>(R.id.tvUpload).setOnClickListener {
-            // Handle click
-            popupWindow.dismiss()
-        }
-        popupView.findViewById<View>(R.id.tvYouTube).setOnClickListener {
-            // Handle click
-            popupWindow.dismiss()
+            navigateToVideoRecorder()
         }
     }
 
@@ -93,5 +85,10 @@ class MainActivity : AppCompatActivity() {
         val animator = ObjectAnimator.ofInt(view.foreground, "alpha", alpha)
         animator.duration = duration
         animator.start()
+    }
+
+    private fun navigateToVideoRecorder() {
+        val intent = Intent(this, RecordActivity::class.java)
+        startActivity(intent)
     }
 }

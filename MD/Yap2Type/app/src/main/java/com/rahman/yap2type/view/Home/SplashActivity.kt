@@ -1,4 +1,4 @@
-package com.rahman.yap2type
+package com.rahman.yap2type.view.Home
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.WindowManager
+import com.rahman.yap2type.R
 
 @Suppress("DEPRECATION")
 class SplashActivity : AppCompatActivity() {
