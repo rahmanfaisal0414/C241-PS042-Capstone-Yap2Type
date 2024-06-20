@@ -1,3 +1,5 @@
+![Logo](MD/Yap2Type/app/src/main/res/drawable/icon_logo.png)
+
 # C241-PS042-Capstone-Yap2Type
 
 Organisasi ini adalah bagian dari Bangkit 2024 Product Capstone.
