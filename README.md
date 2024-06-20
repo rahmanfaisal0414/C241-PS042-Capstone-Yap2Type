@@ -1,4 +1,4 @@
-# "# C241-PS042-Capstone-Yap2Type" 
+# C241-PS042-Capstone-Yap2Type
 
 Organisasi ini adalah bagian dari Bangkit 2024 Product Capstone.
 
