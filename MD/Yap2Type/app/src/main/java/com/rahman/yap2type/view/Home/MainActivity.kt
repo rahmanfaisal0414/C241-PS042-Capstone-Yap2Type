@@ -13,6 +13,7 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.rahman.yap2type.R
+import com.rahman.yap2type.view.About.AboutFragment
 
 class MainActivity : AppCompatActivity() {
 
