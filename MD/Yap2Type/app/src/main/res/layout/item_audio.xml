@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="New Audio"
-                android:textColor="#000000"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -36,15 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2024/06/15 09:45"
-                android:textColor="#000000"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/tvAudioDuration"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="01:00"
-                android:textColor="#000000"
+                android:textColor="@color/black"
                 android:textSize="14sp" />
         </LinearLayout>
     </LinearLayout>

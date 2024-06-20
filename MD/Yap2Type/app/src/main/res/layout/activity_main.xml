@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/parentLayout"
-    android:background="#FF6F61"
-    tools:context=".MainActivity">
+    android:background="@color/orange"
+    tools:context=".view.Home.MainActivity">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:backgroundTint="@android:color/white"
+            android:backgroundTint="@color/white"
             app:fabAlignmentMode="center"
             app:fabCradleMargin="10dp"
             app:fabCradleRoundedCornerRadius="50dp"
@@ -34,7 +34,7 @@
                 android:id="@+id/bottomNavigationView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:color/white"
+                android:background="@color/white"
                 app:menu="@menu/bottom_menu"
                 app:labelVisibilityMode="labeled"
                 app:elevation="0dp" />
@@ -45,11 +45,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_add"
-            android:backgroundTint="#FF6F61"
+            android:backgroundTint="@color/orange"
             app:layout_anchor="@id/bottomAppBar"
             app:layout_anchorGravity="center"
             app:maxImageSize="40dp"
-            app:tint="@android:color/white" />
+            app:tint="@color/white" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
