@@ -1,6 +1,11 @@
 
 ## Cloud Computing Documentation
 
+#### LINK GOOGLE DRIVE FOR MODEL (tf_model.h5)
+```plaintext
+https://drive.google.com/drive/folders/1JJXHK9qaq_EVuX9VGWGQt1v4a5VtBJQj?usp=sharing
+```
+
 ### API Speech to Text
 
 In Yap2Type, the speech-to-text functionality is powered by a cloud computing service. Here is a step-by-step explanation of how the integration is achieved:
@@ -99,7 +104,7 @@ Example Teks :
     "text": "Dua orang tewas dan dua lainnya mengalami luka berat akibat ditusuk pria inisial AN saat malam takbiran di Gunungsindur, Bogor, Jawa Barat. Sebelum kejadian, pelaku dan korban sempat berpesta miras.Pelaku, korban, dan saksi lainnya sekitar 15 orang berkumpul untuk merayakan malam takbiran, kata Kasat Reskrim Polres Bogor AKP Teguh Kumara dalam keterangannya, Selasa (18/6/2024).Dalam acara tersebut, Zaki (korban tewas) membawa minuman keras sebanyak empat botol. Lalu sebagian karyawan minum minuman keras tersebut, termasuk AN (tersangka), Zaki, Ulul (korban luka berat), Edo, dan Andi alias Keweh, sambungnya.Baca artikel detiknews, Pria Tusuk 4 Orang Saat Malam Takbiran di Bogor Sempat Pesta Miras selengkapnya https://news.detik.com/berita/d-7396601/pria-tusuk-4-orang-saat-malam-takbiran-di-bogor-sempat-pesta-miras."
 }`
 
-Teks :
+Summary :
 > `{
-    "text": "Dua orang tewas dan dua lainnya mengalami luka berat akibat ditusuk pria inisial AN saat malam takbiran di Gunungsindur, Bogor, Jawa Barat. Sebelum kejadian, pelaku dan korban sempat berpesta miras.Pelaku, korban, dan saksi lainnya sekitar 15 orang berkumpul untuk merayakan malam takbiran, kata Kasat Reskrim Polres Bogor AKP Teguh Kumara.Dalam acara tersebut, Zaki membawa minuman keras sebanyak empat botol."
+    "summary": "Dua orang tewas dan dua lainnya mengalami luka berat akibat ditusuk pria inisial AN saat malam takbiran di Gunungsindur, Bogor, Jawa Barat. Sebelum kejadian, pelaku dan korban sempat berpesta miras.Pelaku, korban, dan saksi lainnya sekitar 15 orang berkumpul untuk merayakan malam takbiran, kata Kasat Reskrim Polres Bogor AKP Teguh Kumara.Dalam acara tersebut, Zaki membawa minuman keras sebanyak empat botol."
 }`
