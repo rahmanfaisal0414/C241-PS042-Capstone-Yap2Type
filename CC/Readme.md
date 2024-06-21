@@ -74,3 +74,32 @@ To run the Yap2Type cloud run API with the `/summarize` endpoint, use the follow
 ```plaintext
 https://summarizeapi-7c7o3mtyua-et.a.run.app/summarize
 ```
+
+
+## Index Endpoints
+**Base URL :**
+
+> `/summarize`
+
+**Method :**
+
+> `POST`
+
+## Netral Classification
+#### Netral EndPoint : <br>
+header key: 
+
+> `content-type value:app/json`
+
+body :
+> `raw:json`
+
+Example Teks :
+> `{
+    "text": "Dua orang tewas dan dua lainnya mengalami luka berat akibat ditusuk pria inisial AN saat malam takbiran di Gunungsindur, Bogor, Jawa Barat. Sebelum kejadian, pelaku dan korban sempat berpesta miras.Pelaku, korban, dan saksi lainnya sekitar 15 orang berkumpul untuk merayakan malam takbiran, kata Kasat Reskrim Polres Bogor AKP Teguh Kumara dalam keterangannya, Selasa (18/6/2024).Dalam acara tersebut, Zaki (korban tewas) membawa minuman keras sebanyak empat botol. Lalu sebagian karyawan minum minuman keras tersebut, termasuk AN (tersangka), Zaki, Ulul (korban luka berat), Edo, dan Andi alias Keweh, sambungnya.Baca artikel detiknews, Pria Tusuk 4 Orang Saat Malam Takbiran di Bogor Sempat Pesta Miras selengkapnya https://news.detik.com/berita/d-7396601/pria-tusuk-4-orang-saat-malam-takbiran-di-bogor-sempat-pesta-miras."
+}`
+
+Teks :
+> `{
+    "text": "Dua orang tewas dan dua lainnya mengalami luka berat akibat ditusuk pria inisial AN saat malam takbiran di Gunungsindur, Bogor, Jawa Barat. Sebelum kejadian, pelaku dan korban sempat berpesta miras.Pelaku, korban, dan saksi lainnya sekitar 15 orang berkumpul untuk merayakan malam takbiran, kata Kasat Reskrim Polres Bogor AKP Teguh Kumara.Dalam acara tersebut, Zaki membawa minuman keras sebanyak empat botol."
+}`
