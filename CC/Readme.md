@@ -1,7 +1,22 @@
 
 ## Cloud Computing Documentation
 
-#### LINK GOOGLE DRIVE FOR MODEL (tf_model.h5)
+### Step by Step Deployment
+
+1. **Clone the GitHub Repository**
+
+   Clone the Yap2Type repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/yourusername/yap2type.git
+   cd yap2type
+
+2. **Download `tf_model.h5` In Drive**
+   Download the `tf_model.h5` file from the provided Google Drive link or any other source where it's hosted.
+
+   ```bash
+   git clone https://github.com/yourusername/yap2type.git
+   cd yap2type](https://drive.google.com/drive/folders/1JJXHK9qaq_EVuX9VGWGQt1v4a5VtBJQj?usp=sharing)
 ```plaintext
 https://drive.google.com/drive/folders/1JJXHK9qaq_EVuX9VGWGQt1v4a5VtBJQj?usp=sharing
 ```
