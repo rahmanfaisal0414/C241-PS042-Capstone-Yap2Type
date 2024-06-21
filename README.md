@@ -28,7 +28,7 @@ There 3 main feature for now, among them :
 
 1. Recording Video
 
-![Screenshot](MD/SS/Record_audio.jpeg){:height="100px" width="200px"}
+<img src="MD/SS/Record_audio.jpeg" alt="Screenshot" width="500"/>
 
 ## Cloud Computing Documentation
 
