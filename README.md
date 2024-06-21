@@ -48,6 +48,30 @@ This mobile application was created starting with UI/UX design then implementing
 
 Flow Android
 
+## Machine Learning Documentation
+
+### Yap2Type Machine Learning Platform
+
+This repository contains the implementation of a cutting-edge tool designed to assist users in summarizing audio-based content, such as news, podcasts, conferences, and conversations. Yap2Type leverages advanced artificial intelligence techniques to distill audio content into clear, concise bullet points, helping users quickly obtain an overview without having to listen to the full recording again. This tool can be particularly beneficial for students, journalists, business professionals, and anyone who needs a rapid way to absorb the main ideas from lengthy discussions.
+
+## Yap2Type Audio Summarization Models
+
+### Yap2Type Voice Recognition
+
+The Yap2Type voice recognition model employs state-of-the-art deep learning techniques to accurately transcribe audio recordings into text. By utilizing transfer learning from pre-trained models on the HuggingFace platform, this component ensures high accuracy and efficiency in recognizing various speech patterns, accents, and audio qualities. The transcription forms the foundation for subsequent summarization processes.
+
+### Yap2Type Summary
+
+The Yap2Type summary model is designed to generate concise and relevant summaries from transcribed audio text. Using advanced natural language processing (NLP) techniques, this model identifies key points and essential information, transforming lengthy text into clear and actionable bullet points. The summary level is adjustable, allowing users to customize the depth and detail of the summaries according to their needs.
+
+### Yap2Type Tokenizer
+
+The Yap2Type tokenizer component is responsible for preprocessing the transcribed text, breaking it down into manageable units for efficient processing by the summarization model. By tokenizing the text, the system can better understand the context and structure of the content, enhancing the overall accuracy and coherence of the generated summaries.
+
+### Yap2Type Transfer Learning from HuggingFace
+
+The Yap2Type platform leverages transfer learning from pre-trained models available on HuggingFace, a popular repository for NLP models. By fine-tuning these models on our custom dataset, which includes diverse audio recordings of news, podcasts, conferences, and conversations, Yap2Type ensures high performance and adaptability to various audio sources. This approach significantly reduces training time and computational resources while maintaining high accuracy and relevance in summaries.
+
 ## Cloud Computing Documentation
 
 ### API Speech to Text
