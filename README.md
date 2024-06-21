@@ -24,6 +24,12 @@ Yap2Type adalah alat mutakhir yang dibuat untuk membantu pengguna merangkum kont
 
 ### Features
 
+There 3 main feature for now, among them :
+
+1. Recording Video
+
+![Screenshot](MD/SS/Record_audio.jpeg)
+
 ## Cloud Computing Documentation
 
 ### API Speech to Text
