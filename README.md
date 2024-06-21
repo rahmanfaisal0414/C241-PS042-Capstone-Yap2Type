@@ -30,6 +30,18 @@ There 3 main feature for now, among them :
 
 <img src="MD/SS/Record_audio.jpeg" alt="Screenshot" width="500"/>
 
+2. Voice to Text
+
+<img src="MD/SS/Voice_to_text.jpeg" alt="Screenshot" width="500"/>
+
+3. Summarize Text
+
+<img src="MD/SS/Summarize_1.jpeg" alt="Screenshot" width="500"/>
+
+<img src="MD/SS/Summarize_2.jpeg" alt="Screenshot" width="500"/>
+
+### User Flow
+
 ## Cloud Computing Documentation
 
 ### API Speech to Text
