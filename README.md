@@ -37,7 +37,7 @@ In Yap2Type, the speech-to-text functionality is powered by a cloud computing se
 
 By leveraging cloud computing, Yap2Type can efficiently handle speech-to-text conversion, providing accurate and fast transcription services without requiring extensive local processing power.
 
-### Requirements
+### Deployment Requirements
 
 Below is the `requirements.txt` file listing the necessary Python packages for Yap2Type:
 
@@ -49,6 +49,7 @@ tf-keras==2.16.0
 transformers==4.41.2
 Werkzeug==3.0.3
 blinker==1.8.2
+```
 
 ## Docker Configuration
 
@@ -66,9 +67,11 @@ env
 build
 dist
 *.egg-info
+```
 
 ### DOCKERFILE
 
+```plaintext
 FROM python:3.9-slim
 
 WORKDIR /app
@@ -84,9 +87,11 @@ EXPOSE 8080
 ENV PORT 8080
 
 CMD ["python", "main.py"]
+```
 
 ## Deployed Cloud Run API Endpoint
-To run the Yap2Type cloud run API with the "/summarize" endpoint, use the following URL:
+To run the Yap2Type cloud run API with the `/summarize` endpoint, use the following URL:
 
+```plaintext
 https://summarizeapi-7c7o3mtyua-et.a.run.app/summarize
-
+```
