@@ -7,13 +7,13 @@
 
    Clone the Yap2Type repository to your local machine using the following command:
 
-   I. Clone Repositori Utama
+   A. Clone Repositori Utama
 
    ```bash
       git clone https://github.com/rahmanfaisal0414/C241-PS042-Capstone-Yap2Type.git
    ```
    
-   II. Move to Subdirectory, After cloning the main repository, move to the subdirectory you want:
+   B. Move to Subdirectory, After cloning the main repository, move to the subdirectory you want:
 
    ```bash
    cd C241-PS042-Capstone-Yap2Type/cc
@@ -31,7 +31,7 @@
 4. **Install Required Libraries**
    You can follow the docker, requirements , dockerignore file libraries that we use
 
-### API Speech to Text
+## API Speech to Text
 
 In Yap2Type, the speech-to-text functionality is powered by a cloud computing service. Here is a step-by-step explanation of how the integration is achieved:
 
@@ -46,7 +46,7 @@ In Yap2Type, the speech-to-text functionality is powered by a cloud computing se
 
 By leveraging cloud computing, Yap2Type can efficiently handle speech-to-text conversion, providing accurate and fast transcription services without requiring extensive local processing power.
 
-### Deployment Requirements
+## Deployment Requirements
 
 Below is the `requirements.txt` file listing the necessary Python packages for Yap2Type:
 
