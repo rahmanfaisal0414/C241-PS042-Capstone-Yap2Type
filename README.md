@@ -81,13 +81,13 @@ The Yap2Type platform leverages transfer learning from pre-trained models availa
 
    Clone the Yap2Type repository to your local machine using the following command:
 
-   I. Clone Repositori Utama
+   A. Clone Repositori Utama
 
    ```bash
       git clone https://github.com/rahmanfaisal0414/C241-PS042-Capstone-Yap2Type.git
    ```
    
-   II. Move to Subdirectory, After cloning the main repository, move to the subdirectory you want:
+   B. Move to Subdirectory, After cloning the main repository, move to the subdirectory you want:
 
    ```bash
    cd C241-PS042-Capstone-Yap2Type/cc
