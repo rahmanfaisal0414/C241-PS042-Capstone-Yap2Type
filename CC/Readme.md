@@ -15,11 +15,13 @@
    Download the `tf_model.h5` file from the provided Google Drive link or any other source where it's hosted.
 
    ```bash
-   git clone https://github.com/yourusername/yap2type.git
-   cd yap2type](https://drive.google.com/drive/folders/1JJXHK9qaq_EVuX9VGWGQt1v4a5VtBJQj?usp=sharing)
-```plaintext
-https://drive.google.com/drive/folders/1JJXHK9qaq_EVuX9VGWGQt1v4a5VtBJQj?usp=sharing
-```
+   https://drive.google.com/drive/folders/1JJXHK9qaq_EVuX9VGWGQt1v4a5VtBJQj?usp=sharing
+
+3. **Save tf_model.h5 to directory model**
+   Save the downloaded tf_model.h5 file into the model directory within the cloned repository. 
+
+4. **Install Required Libraries**
+   You can follow the docker, requirements , dockerignore file libraries that we use
 
 ### API Speech to Text
 
