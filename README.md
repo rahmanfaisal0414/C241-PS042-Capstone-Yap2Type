@@ -40,7 +40,13 @@ There 3 main feature for now, among them :
 
 <img src="MD/SS/Summarize_2.jpeg" alt="Screenshot" width="200"/>
 
-### User Flow
+### Technical Details
+
+This mobile application was created starting with UI/UX design then implementing the design results using native Android Kotlin by utilizing supporting libraries such as Retrofit to interact with the API. This app has voice recorder, voice to text, and summary. Users can record sound from their device which will be converted into text and Users can summarize the text.
+
+<img src="MD/SS/user_flow_yap2type.png" alt="Screenshot" width="200"/>
+
+Flow Android
 
 ## Cloud Computing Documentation
 
