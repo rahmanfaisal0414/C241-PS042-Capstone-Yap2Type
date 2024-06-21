@@ -11,9 +11,9 @@
 
    ```bash
       git clone https://github.com/rahmanfaisal0414/C241-PS042-Capstone-Yap2Type.git
-      Pindah ke Subdirektori
    ```
-   II.After cloning the main repository, move to the subdirectory you want:
+   
+   II. Move to Subdirectory, After cloning the main repository, move to the subdirectory you want:
 
    ```bash
    cd C241-PS042-Capstone-Yap2Type/cc
