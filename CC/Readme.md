@@ -7,9 +7,17 @@
 
    Clone the Yap2Type repository to your local machine using the following command:
 
+   I. Clone Repositori Utama
+
    ```bash
-   git clone https://github.com/yourusername/yap2type.git
-   cd yap2type
+      git clone https://github.com/rahmanfaisal0414/C241-PS042-Capstone-Yap2Type.git
+      Pindah ke Subdirektori
+   ```
+   II.After cloning the main repository, move to the subdirectory you want:
+
+   ```bash
+   cd C241-PS042-Capstone-Yap2Type/cc
+   ```
 
 2. **Download `tf_model.h5` In Drive**
    Download the `tf_model.h5` file from the provided Google Drive link or any other source where it's hosted.
