@@ -28,17 +28,17 @@ There 3 main feature for now, among them :
 
 1. Recording Video
 
-<img src="MD/SS/Record_audio.jpeg" alt="Screenshot" width="500"/>
+<img src="MD/SS/Record_audio.jpeg" alt="Screenshot" width="200"/>
 
 2. Voice to Text
 
-<img src="MD/SS/Voice_to_text.jpeg" alt="Screenshot" width="500"/>
+<img src="MD/SS/Voice_to_text.jpeg" alt="Screenshot" width="200"/>
 
 3. Summarize Text
 
-<img src="MD/SS/Summarize_1.jpeg" alt="Screenshot" width="500"/>
+<img src="MD/SS/Summarize_1.jpeg" alt="Screenshot" width="200"/>
 
-<img src="MD/SS/Summarize_2.jpeg" alt="Screenshot" width="500"/>
+<img src="MD/SS/Summarize_2.jpeg" alt="Screenshot" width="200"/>
 
 ### User Flow
 
