@@ -105,7 +105,7 @@ The Yap2Type platform leverages transfer learning from pre-trained models availa
 4. **Install Required Libraries**
    You can follow the docker, requirements , dockerignore file libraries that we use
 
-### API Speech to Text
+## API Speech to Text
 
 In Yap2Type, the speech-to-text functionality is powered by a cloud computing service. Here is a step-by-step explanation of how the integration is achieved:
 
@@ -120,7 +120,7 @@ In Yap2Type, the speech-to-text functionality is powered by a cloud computing se
 
 By leveraging cloud computing, Yap2Type can efficiently handle speech-to-text conversion, providing accurate and fast transcription services without requiring extensive local processing power.
 
-### Deployment Requirements
+## Deployment Requirements
 
 Below is the `requirements.txt` file listing the necessary Python packages for Yap2Type:
 
